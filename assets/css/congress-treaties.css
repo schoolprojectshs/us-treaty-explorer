@@ -1,0 +1,74 @@
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+      }
+      
+      #dataviz {
+        width: 100%;
+        height: 100%;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      }
+      .axis path { stroke: none; }
+
+      .bubbles {
+        cursor: pointer;
+        opacity: 0.95;
+      }
+
+      #tooltip{
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        display: none;
+        font-size: 12px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+      }
+
+      #tooltip strong{
+        font-size: 16px;
+      }
+
+      #tooltip span{
+        color: #999;
+      }
+
+      .glyphicon-remove {
+        display: none;
+      }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.input-group-addon {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.input-group-addon:hover {
+  opacity: 1;
+}
+
+@media (min-width:1200px) {
+  .form-group {
+    width: 25%;
+  }
+}
+
+.txt {
+  font-size: 17px;
+}
+
+.instructions {
+  margin-bottom: 20px;
+}
