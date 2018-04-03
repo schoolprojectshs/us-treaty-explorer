@@ -1,0 +1,1 @@
+This is the source code and data for the [US Treaties Explorer](http://gentleknowledge.com/student-projects/congress-treaties/) project.
